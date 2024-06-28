@@ -1,12 +1,19 @@
 TODO APP
 
-cd client
-npm install express cors mongoose dotenv
-npm start
+To initializa client side:
 
-cd server
-npm install express cors mongoose dotenv
-npm run dev
+1.cd client
+2.npm init -y
+3.npm install express cors mongoose dotenv
+4.npm start
 
-Application :
-localhost:3000
+TO initialize server side:
+
+1.cd server
+2.npm init -y
+3.npm install express cors mongoose dotenv
+4.npm run dev
+
+Once both client and server are running and connected to mongodb server
+
+Application will run on http://localhost:3000/
